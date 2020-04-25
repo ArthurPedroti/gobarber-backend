@@ -1,27 +1,61 @@
 <h1 align="center">Welcome to gobarber-backend 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
-  <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
-  <a href="https://github.com/ArthurPedroit/gobarber-backend#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+
+<h3 align="center" >
+  An app o manage appointments at a barbershop
+</h3>
+
+<p align="center">
+  <img alt="Languagues" src="https://img.shields.io/github/languages/count/ArthurPedroti/gobarber-backend">
+  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/ArthurPedroti/gobarber-backend">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ArthurPedroti/gobarber-backend">
+  <a href="https://github.com/ArthurPedroti/gobarber-backend/commits/master">
+    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/ArthurPedroti/gobarber-backend">
   </a>
-  <a href="https://github.com/ArthurPedroit/gobarber-backend/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+   <a href="https://github.com/ArthurPedroti/gobarber-backend/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/ArthurPedroti/gobarber-backend">
   </a>
-  <a href="https://github.com/ArthurPedroit/gobarber-backend/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/ArthurPedroti/gobarber-backend" />
+  <img alt="License" src="https://img.shields.io/github/license/ArthurPedroti/gobarber-backend">
+</p>
+<p align="center">
+
+  <a href="https://github.com/ArthurPedroti" target="_blank">
+    <img alt="Made by Arthur Pedroti" src="https://img.shields.io/badge/made%20by-Arthur_Pedroti-informational">
   </a>
+  <a href="https://github.com/ArthurPedroti" target="_blank" >
+    <img alt="Github - Arthur Pedroti" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
+  </a>
+  <a href="https://www.linkedin.com/in/arthurpedroti/" target="_blank" >
+    <img alt="Linkedin - Arthur Pedroti" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>
+  <a href="mailto:arthurpedroti@gmail.com" target="_blank" >
+    <img alt="Email - Arthur Pedroti" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>
+  <a href="https://api.whatsapp.com/send?phone=5519991830454"
+        target="_blank" >
+    <img alt="Fale comigo no whatsapp - Arthur Pedroti" src="https://img.shields.io/badge/Whatsapp--%23F8952D?style=social&logo=whatsapp">
+  </a>
+
 </p>
 
-> An app o manage appointments at a barbershop
+<p align="center">
+<a href="#rocket-environment">Environment</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-languages">Languages</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#books-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#install">Install</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#books-usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-### 🏠 [Homepage](https://github.com/ArthurPedroit/gobarber-backend#readme)
+## :computer: Languages
 
-## Prerequisites
+- **TypeScript**
 
-- npm >=5.5.0
-- node >=9.3.0
+## :books: Technologies
+
+- **#Express**
+- **#TypeORM**
+- **#ESLint**
+- **#Prettier**
 
 ## Install
 
@@ -29,11 +63,18 @@
 yarn install
 ```
 
+## Usage
+
+```sh
+yarn dev:server
+```
+
 ## Author
 
 👤 **Arthur Pedroti**
 
 * Github: [@ArthurPedroti](https://github.com/ArthurPedroti)
+* Linkedin: [@ArthurPedroti](https://www.linkedin.com/in/arthurpedroti)
 
 ## 🤝 Contributing
 
@@ -48,5 +89,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2020 [Arthur Pedroti](https://github.com/ArthurPedroti).<br />
 This project is [MIT](https://github.com/ArthurPedroit/gobarber-backend/blob/master/LICENSE) licensed.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+---
+
+Made by :blue_heart: by [Arthur Pedroti](https://github.com/ArthurPedroti)
