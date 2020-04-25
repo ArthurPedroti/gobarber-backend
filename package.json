@@ -1,8 +1,22 @@
 {
-  "name": "node-tyescript",
+  "name": "gobarber-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "An app o manage appointments at a barbershop",
+  "author": "Arthur Pedroti",
   "license": "MIT",
+  "homepage": "https://github.com/ArthurPedroit/gobarber-backend#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurPedroit/gobarber-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArthurPedroit/gobarber-backend/issues"
+  },
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/server.ts",
