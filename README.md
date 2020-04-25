@@ -48,7 +48,7 @@
 
 ## :computer: Languages
 
-- **TypeScript**
+- **#TypeScript**
 
 ## :books: Technologies
 
