@@ -4,4 +4,4 @@ build/
 
 tmp/*
 !tmp/.gitkeep
-
+.env
