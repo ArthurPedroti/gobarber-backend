@@ -58,11 +58,18 @@
 - **#ESLint**
 - **#Prettier**
 - **#AWS S3**
+- **#Multer**
 - **#AWS SES**
 - **#Celebrate**
 - **#JWT**
 - **#Nodemailer**
+- **#Handlebars**
 - **#TSringe**
+- **#ioRedis**
+- **#rate-limiter-flexible**
+- **#Commitlint**
+- **#Commitizen**
+- **#Husky**
 
 ## :file_cabinet: Databases
 
@@ -71,6 +78,8 @@
 - **#Redis**
 
 ## Install
+
+Init your repository before install, or you will need to reinstall husky.
 
 ```sh
 yarn install
