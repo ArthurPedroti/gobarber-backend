@@ -33,7 +33,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
-    "add": "^2.0.6",
     "aws-sdk": "^2.678.0",
     "bcryptjs": "^2.4.3",
     "celebrate": "^12.1.1",
@@ -58,8 +57,7 @@
     "reflect-metadata": "^0.1.13",
     "tsyringe": "^4.2.0",
     "typeorm": "^0.2.24",
-    "uuidv4": "^6.0.7",
-    "yarn": "^1.22.4"
+    "uuidv4": "^6.0.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
