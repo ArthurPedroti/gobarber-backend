@@ -18,7 +18,7 @@
     "node": ">=9.3.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
     "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpileOnly --ignore-watch node_modules src/shared/infra/http/server.ts",
     "start": "ts-node -r tsconfig-paths/register src/shared/infra/http/server.ts",
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
@@ -60,6 +60,13 @@
     "uuidv4": "^6.0.7"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-typescript": "^7.10.1",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@types/bcryptjs": "^2.4.2",
@@ -73,6 +80,9 @@
     "@types/multer": "^1.4.3",
     "@types/nodemailer": "^6.4.0",
     "@types/redis": "^2.8.21",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-typescript-metadata": "^0.3.0",
     "commitizen": "^4.0.4",
     "cz-conventional-changelog": "3.1.0",
     "eslint": "^6.8.0",
