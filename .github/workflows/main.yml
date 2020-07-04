@@ -36,7 +36,7 @@ jobs:
         target: "~/app/gobarber-backend"
         
     # Executes Yarn on Server
-    - name: executing remote ssh commands using password
+    - name: Run production scripts
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
@@ -46,25 +46,7 @@ jobs:
         script: |
           cd ~/app/gobarber-backend
           yarn
-    
-    # Run migrations on Server
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USER }}
-        port: ${{ secrets.SSH_PORT }}
-        key: ${{ secrets.SSH_KEY }}
-        script: |
-          cd ~/app/gobarber-backend
+          # Run migrations on Server
           ./node_modules/.bin/typeorm migration:run
-          
-    # Run migrations on Server
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USER }}
-        port: ${{ secrets.SSH_PORT }}
-        key: ${{ secrets.SSH_KEY }}
-        script: pm2 restart gobarber-api
+          # Restart Server
+          pm2 restart gobarber-api
