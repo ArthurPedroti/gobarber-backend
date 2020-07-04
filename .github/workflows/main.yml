@@ -24,6 +24,7 @@ jobs:
     - name: Run build
       run: yarn build
     
+    # Copy code to Digital Ocean
     - name: Copy dist to Digital Ocean
       uses: appleboy/scp-action@master
       with:
@@ -31,7 +32,8 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         port: ${{ secrets.SSH_PORT }}
         key: ${{ secrets.SSH_KEY }}
-        source: "."
+        source: ".,!node_modules"
         target: "~/app/gobarber-backend"
 
+    
     
